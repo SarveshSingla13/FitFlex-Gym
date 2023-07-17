@@ -1,0 +1,43 @@
+.Programs{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+padding: 0 2 rem;
+}
+
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.program-categories{
+    display: flex;
+    gap: 2rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: #9c9c9c;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-betwe;
+}
+
+.category :nth-child(1){
+    width: 2rem;
+    height: 2rem; fill:white
+}
+.category :nth-child(1){
+    font-size: 1rem;
+    font-weight: bold ;
+}
+
+.category:hover{
+    background-color: #f48915;
+}
