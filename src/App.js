@@ -9,6 +9,8 @@ import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router , Route, Routes } from 'react-router-dom';
 
 function App() {
+  console.log("hs");
+
   return (
     <div className="App">
       <Hero/>
